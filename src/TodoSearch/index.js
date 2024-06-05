@@ -1,6 +1,8 @@
+import "./index.css"
+
 function TodoSearch( props ) {
     return (
-        <input placeholder="Cortar cebolla"/>
+            <input className="TodoSearch" placeholder="Cortar cebolla"/>
     )
 }
 

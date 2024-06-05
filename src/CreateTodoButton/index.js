@@ -1,6 +1,8 @@
+import './Index.css';
+
 function CreateTodoButton( props ) {
     return (
-        <button>+</button>
+        <button className="CreateTodoButton">+</button>
     )
 }
 
