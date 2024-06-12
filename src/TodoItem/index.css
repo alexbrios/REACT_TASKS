@@ -35,6 +35,11 @@
     position: absolute;
     left: 1.2rem;
 }
+
+.Icon-check:hover {
+    color: #4caf50;
+}
+
 .Icon-check--active {
     color: #4caf50;
 }
