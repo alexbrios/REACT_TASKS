@@ -1,12 +1,17 @@
 import './Index.css';
+import { TodoContext } from '../TodoContext/Index';
+import React from 'react';
 
-function CreateTodoButton( props ) {
+function CreateTodoButton() {
+    const {
+        openModal,
+        setOpenModal
+    } = React.useContext(TodoContext)
+
     return (
         <button className="CreateTodoButton"
         onClick={(event) => {
-            console.log("Le diste CLick")
-            console.log(event)
-            console.log(event.target)
+            setOpenModal(!openModal)
         }}
         >+</button>
     )
