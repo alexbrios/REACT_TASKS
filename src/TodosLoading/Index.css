@@ -3,17 +3,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2.4rem;
-    box-shadow: 0rem 0.5rem 50rem rgba(32, 35, 41, 0.15);
-    border-radius: 1rem;
-    padding: 1.2rem 0;
+    margin-top: 24px;
+    box-shadow: 0px 5px 500px rgba(32, 35, 41, 0.15);
+    border-radius: 10px;
+    padding: 12px 0;
   }
   
   .LoadingTodo-text {
-    margin: 2.4rem 0rem 2.4rem 2.4rem;
-    width: calc(100% - 12rem);
-    font-size: 1.8rem;
-    line-height: 2.4rem;
+    margin: 24px 0px 24px 24px;
+    width: calc(100% - 120px);
+    font-size: 18px;
+    line-height: 24px;
     font-weight: 400;
   }
   
@@ -23,17 +23,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5rem;
-    height: 4.8rem;
-    width: 4.8rem;
+    border-radius: 50px;
+    height: 48px;
+    width: 48px;
   }
   .LoadingTodo-completeIcon {
     position: absolute;
-    left: 1.2rem;
+    left: 12px;
   }
   .LoadingTodo-deleteIcon {
     position: absolute;
-    top: -2.4rem;
+    top: -24px;
     right: 0;
   }
   
